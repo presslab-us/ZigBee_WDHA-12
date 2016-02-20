@@ -1,0 +1,44 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1862767519
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[struct_types]
+Fmt0=aps_Group_t-ID	1	0
+[watch_formats]
+Fmt0={W}0:(HAL_KEY_SW_2 | HAL_KEY_SW_3 | HAL_KEY_SW_4)	1	0
+Fmt1={W}0:event_id	4	0
+Fmt2={W}0:keys	1	0
+Fmt3={W}0:runtimeChannel	4	0
+Fmt4={W}0:zclSampleSw_batteryPercent	3	0
+Fmt5={W}0:zclSampleSw_batteryVolts	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Source\hal_key.c}.417.1" 0 0 0 0 "" 0 ""
+Count=1
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Aliases]
+Count=0
+SuppressDialog=0
